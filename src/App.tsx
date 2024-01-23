@@ -1,10 +1,13 @@
-import "./App.css";
+import Navbar from "./components/navigation/Navbar";
+import wings from "./assets/wings-min.jpg";
 
 function App() {
   return (
     <>
-      <h1 className="text-orange-700 text-4xl">Welcome to BestBite</h1>
-      <div>New website - coming soon</div>
+      <Navbar />
+    <div>
+      <img src={wings} />
+    </div>
     </>
   );
 }
