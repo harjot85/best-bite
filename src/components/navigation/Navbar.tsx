@@ -23,19 +23,19 @@ const Navbar = () => {
         <div className="text-sm lg:flex-grow">
           <a
             href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-red-500 mr-4 text-lg"
+            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-red-500 mr-2 text-lg"
           >
             Menu
           </a>
           <a
             href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-white mr-4 text-lg"
+            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-white ml-12 mr-2 text-lg"
           >
             Contact
           </a>
           <a
             href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-white  mr-4 text-lg"
+            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-white ml-12 mr-2 text-lg"
           >
             About
           </a>
