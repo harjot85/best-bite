@@ -1,0 +1,7 @@
+{
+  "business": {
+    "name": "BestBite Pizza",
+    "phoneNumber": "(604) 701-3334",
+    "navbarOptions": ["Menu", "Contact", "About"]
+  }
+}

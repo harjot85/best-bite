@@ -1,4 +1,5 @@
 import { useState } from "react";
+import data from "../../data/data.json";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,6 +8,8 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const { navbarOptions, name } = data.business;
+
   return (
     <nav
       id="navbar"
@@ -14,7 +17,7 @@ const Navbar = () => {
     >
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <span className="font-semibold text-3xl tracking-tight text-red-900">
-          BestBite Pizza
+          {name}
         </span>
       </div>
       <div className="block lg:hidden">
@@ -40,24 +43,18 @@ const Navbar = () => {
         } w-full block text-right flex-grow lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow">
-          <a
-            href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-red-500 mr-2 text-lg"
-          >
-            Menu
-          </a>
-          <a
-            href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-white ml-12 mr-2 text-lg"
-          >
-            Contact
-          </a>
-          <a
-            href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-white ml-12 mr-2 text-lg"
-          >
-            About
-          </a>
+          {navbarOptions &&
+            navbarOptions.map((option) => {
+              return (
+                <a
+                  key={option}
+                  href="#responsive-header"
+                  className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-red-500 mr-2 ml-12 text-lg"
+                >
+                  {option}
+                </a>
+              );
+            })}
         </div>
       </div>
     </nav>
