@@ -5,7 +5,7 @@ import data from "../data/data.json";
 const HomePage = () => {
   return (
     <>
-      <RedBar />
+      <RedBar height="h-1" />
       <Navbar />
       <MainCover phoneNumber={data.business.phoneNumber} image={wings} />
     </>
@@ -14,8 +14,9 @@ const HomePage = () => {
 
 export default HomePage;
 
-const RedBar = () => {
-  return <div className="w-full h-1 bg-red-900" />;
+type RedBar = { height: string };
+export const RedBar = ({ height }: RedBar) => {
+  return <div className={`w-full ${height} bg-red-900`} />;
 };
 
 type MainCover = { image: string; phoneNumber: string };

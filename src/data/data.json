@@ -2,6 +2,76 @@
   "business": {
     "name": "BestBite Pizza",
     "phoneNumber": "(604) 701-3334",
-    "navbarOptions": ["Menu", "Contact", "About"]
+    "navbarOptions": ["Menu", "Contact", "About"],
+    "configuration": {
+      "colorA": "text-red-900",
+      "colorB": ""
+    },
+    "menu": [
+      {
+        "name": "Garden Veggie Pizza",
+        "classification": "vegetarian",
+        "ingredients": [
+          "Garlic Ranch sauce",
+          "Potatoes",
+          "Drizzled Pesto",
+          "Red Peppers",
+          "Green Onion",
+          "Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$12.99" },
+          { "name": "Medium", "price": "$16.99" },
+          { "name": "Large", "price": "$21.99" }
+        ]
+      },
+      {
+        "name": "Veggie Potato Pizza",
+        "classification": "vegetarian",
+        "ingredients": [
+          "Garlic Ranch sauce",
+          "Potatoes",
+          "Drizzled Pesto",
+          "Red Peppers",
+          "Green Onion",
+          "Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$12.99" },
+          { "name": "Medium", "price": "$16.99" },
+          { "name": "Large", "price": "$21.99" }
+        ]
+      },
+      {
+        "name": "Pepperoni Lovers Pizza",
+        "classification": "meat",
+        "ingredients": [
+          "Tomato sauce",
+          "Dry curd pepperoni",
+          "CUP n CHAR pepperoni",
+          "Lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$12.00" },
+          { "name": "Medium", "price": "$16.00" },
+          { "name": "Large", "price": "$20.00" }
+        ]
+      },
+      {
+        "name": "Hawaiian Pizza",
+        "classification": "meat",
+        "ingredients": [
+          "Tomato sauce",
+          "Ham",
+          "Pineapple",
+          "Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$12.00" },
+          { "name": "Medium", "price": "$16.00" },
+          { "name": "Large", "price": "$20.00" }
+        ]
+      }
+    ]
   }
 }
