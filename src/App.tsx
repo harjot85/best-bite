@@ -1,13 +1,9 @@
-import Navbar from "./components/navigation/Navbar";
-import wings from "./assets/wings-min.jpg";
+import BestBiteApp from "./pages/bestbite-app";
 
 function App() {
   return (
     <>
-      <Navbar />
-    <div>
-      <img src={wings} />
-    </div>
+      <BestBiteApp />
     </>
   );
 }
