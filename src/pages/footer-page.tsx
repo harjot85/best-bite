@@ -1,6 +1,8 @@
+import { Footer } from "../components/Footer/footer"
+
 const FooterPage = () => {
   return (
-    <div>FooterPage</div>
+    <Footer/>
   )
 }
 

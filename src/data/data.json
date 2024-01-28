@@ -2,10 +2,21 @@
   "business": {
     "name": "BestBite Pizza",
     "phoneNumber": "(604) 701-3334",
+    "address": {
+      "street": "46372 Yale Road East",
+      "city": "Chilliwack",
+      "province": "BC",
+      "country": "Canada"
+    },
     "navbarOptions": ["Menu", "Contact", "About"],
     "configuration": {
       "colorA": "text-red-900",
       "colorB": ""
+    },
+    "aboutText": {
+      "lineOne": "Bestbite Pizza, isn't a figure of speech, or a bombast. We literally promise you the best taste in every bite.",
+      "lineTwo": "Our family-owned business does not compromise in gourmet quality. The dough is prepared fresh daily with the finest flour. The mouth watering, homemade tomato sauce is inspired by Italian cooking with a blend of seasonings fine-tuned over the years by the Kang family.",
+      "lineThree": "We use a pasteurized, rich 100% milk mozzarella cheese grated fresh daily that we generously load our pizzas with. We use crisp, fresh veggies that are hand-cut every morning. All of this results in an exhilarating culinary experience."
     },
     "menu": [
       {
@@ -60,12 +71,7 @@
       {
         "name": "Hawaiian Pizza",
         "classification": "meat",
-        "ingredients": [
-          "Tomato sauce",
-          "Ham",
-          "Pineapple",
-          "Mozzarella"
-        ],
+        "ingredients": ["Tomato sauce", "Ham", "Pineapple", "Mozzarella"],
         "sizes": [
           { "name": "Small", "price": "$12.00" },
           { "name": "Medium", "price": "$16.00" },

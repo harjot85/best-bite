@@ -1,9 +1,26 @@
 import { RedBar } from "./home-page";
 import data from "../data/data.json";
 import Vegetarian from "../assets/vegetarian.png";
+import { useState } from "react";
 
 const MenuPage = () => {
   const { menu } = data.business;
+
+  const [menuList, setMenuList] = useState(menu);
+
+  const filters = [
+    "All",
+    "Popular",
+    "Vegetarian",
+    "Meat",
+    "Tomato-sauce based",
+    "White-sauce based",
+  ];
+
+  const handlePillClick = () => {
+    console.log("Pill Click handler");
+  };
+
   return (
     <div className="text-white mt-20 mx-12">
       <div className="text-4xl">
@@ -12,15 +29,12 @@ const MenuPage = () => {
       </div>
 
       <div className=" mb-24 flex flex-wrap space-x-4">
-        <Pill text="All" onClick={() => {}} />
-        <Pill text="Popular" onClick={() => {}} />
-        <Pill text="Vegetarian" onClick={() => {}} />
-        <Pill text="Meat" onClick={() => {}} />
-        <Pill text="Tomato-sauce based" onClick={() => {}} />
-        <Pill text="White-sauce based" onClick={() => {}} />
+        {filters.map((filter) => (
+          <Pill key={filter} text={filter} onClick={handlePillClick} />
+        ))}
       </div>
       <div className="grid lg:grid-cols-2 lg:gap-6">
-        {menu.map((item) => (
+        {menuList.map((item) => (
           <MenuItem key={item.name} item={item} />
         ))}
       </div>
@@ -73,7 +87,7 @@ const Pill = ({ text, onClick }: Pill) => {
   return (
     <button
       onClick={onClick}
-      className="text-red-900 text-sm md:text-lg lg:text-xl 
+      className="text-red-900 text-sm md:text-lg 
     border-solid border-2 border-red-900 rounded-full
     px-6 lg:px-12 py-2 lg:py-2 mt-4"
     >
