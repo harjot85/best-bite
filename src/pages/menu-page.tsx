@@ -19,6 +19,8 @@ const MenuPage = () => {
 
   const handlePillClick = () => {
     console.log("Pill Click handler");
+    // temporary-fix for failing deployment
+    setMenuList(menu);
   };
 
   return (
