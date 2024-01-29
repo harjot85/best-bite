@@ -24,7 +24,7 @@ const MenuPage = () => {
   };
 
   return (
-    <div className="text-white mt-20 mx-12">
+    <div className="text-white mt-20 mx-4 lg:mx-12">
       <div className="text-4xl">
         <p className="text-red-900 mb-4">Menu</p>
         <RedBar height="h-1" />
@@ -61,7 +61,7 @@ const MenuItem = ({ item }: MenuItem) => {
   const {} = item;
 
   return (
-    <div className="border-solid border-slate-950 border-2 rounded-lg p-6 text-slate-400">
+    <div className="border-solid border-slate-950 border-2 rounded-lg px-2 lg:px-6 py-6 text-slate-400 my-4">
       <div className="text-2xl lg:text-4xl mb-4 flex space-x-12 items-start">
         <span>{item.name}</span>
 

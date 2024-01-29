@@ -24,7 +24,13 @@ export default TestimonialsPage;
 const Testimonial = ({ testimonial }: { testimonial: string }) => {
   return (
     <div className=" border-solid border-2 border-red-950 pt-8 my-2">
-      <RedBar height="h-1" />
+      <div className="grid grid-cols-12">
+        <div className="col-span-2"></div>
+        <div className="col-span-10">
+          <RedBar height="h-1" />
+        </div>
+      </div>
+
       <div className="p-6 py-24">
         <p className="text-slate-300 italic">"{testimonial}"</p>
       </div>
