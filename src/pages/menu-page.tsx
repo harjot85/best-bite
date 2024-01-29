@@ -10,7 +10,6 @@ const MenuPage = () => {
 
   const filters = [
     "All",
-    "Popular",
     "Vegetarian",
     "Meat",
     "Tomato-sauce based",
@@ -50,6 +49,7 @@ type MenuItem = {
   item: {
     name: string;
     classification: string;
+    baseSauce: string;
     ingredients: string[];
     sizes: {
       name: string;

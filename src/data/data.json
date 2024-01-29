@@ -27,8 +27,8 @@
       {
         "name": "Garden Veggie Pizza",
         "classification": "vegetarian",
+        "baseSauce": "Garlic Ranch sauce",
         "ingredients": [
-          "Garlic Ranch sauce",
           "Potatoes",
           "Drizzled Pesto",
           "Red Peppers",
@@ -44,8 +44,8 @@
       {
         "name": "Veggie Potato Pizza",
         "classification": "vegetarian",
+        "baseSauce": "Garlic Ranch sauce",
         "ingredients": [
-          "Garlic Ranch sauce",
           "Potatoes",
           "Drizzled Pesto",
           "Red Peppers",
@@ -61,8 +61,8 @@
       {
         "name": "Pepperoni Lovers Pizza",
         "classification": "meat",
+        "baseSauce": "Tomato sauce",
         "ingredients": [
-          "Tomato sauce",
           "Dry curd pepperoni",
           "CUP n CHAR pepperoni",
           "Lotsa Mozzarella"
@@ -76,7 +76,8 @@
       {
         "name": "Hawaiian Pizza",
         "classification": "meat",
-        "ingredients": ["Tomato sauce", "Ham", "Pineapple", "Mozzarella"],
+        "baseSauce": "Tomato sauce",
+        "ingredients": ["Ham", "Pineapple", "Mozzarella"],
         "sizes": [
           { "name": "Small", "price": "$12.00" },
           { "name": "Medium", "price": "$16.00" },
