@@ -11,7 +11,7 @@ const TestimonialsPage = () => {
           <RedBar height="h-1" />
           <div className="py-12 text-lg lg:text-xl grid lg:grid-cols-3 lg:gap-6">
             {testimonials &&
-              testimonials.map((t) => <Testimonial testimonial={t} />)}
+              testimonials.map((t) => <Testimonial key={t} testimonial={t} />)}
           </div>
         </div>
       </div>
