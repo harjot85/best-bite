@@ -34,7 +34,7 @@ const GalleryPage = () => {
                   key={i}
                   src={image}
                   alt=""
-                  className="w-full object-cover rounded-md shadow-sm sm:rounded-lg min-h-[50rem]"
+                  className="w-full object-cover rounded-md shadow-sm sm:rounded-lg min-h-[32rem] lg:min-h-[50rem]"
                 />
               );
             })}
