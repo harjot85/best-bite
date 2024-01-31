@@ -33,7 +33,7 @@ const MainCover = ({ phoneNumber, image }: MainCover) => {
 type Phone = { phoneNumber: string };
 const PhoneNumber = ({ phoneNumber }: Phone) => {
   return (
-    <div className="flex justify-start -mt-16 lg:-mt-24 ml-8 lg:ml-16 ">
+    <div className="flex justify-start -mt-32 lg:-mt-24 ml-8 lg:ml-16 ">
       <span
         className=" text-red-800 text-lg font-semibold md:text-lg
                           border-solid border-2 border-red-900 rounded-full

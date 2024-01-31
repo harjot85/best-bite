@@ -42,14 +42,15 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         } w-full block text-right flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm lg:flex-grow">
+        <div className="lg:flex-grow">
           {navbarOptions &&
             navbarOptions.map((option) => {
               return (
                 <a
                   key={option.value}
                   href={option.href}
-                  className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-red-500 mr-2 ml-12 text-lg"
+                  className="block mt-4 lg:inline-block lg:mt-0
+                             text-red-900 hover:text-red-500 mr-2 ml-12 text-xl font-semibold"
                 >
                   {option.value}
                 </a>

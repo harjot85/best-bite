@@ -51,7 +51,7 @@ const MenuPage = () => {
   };
 
   return (
-    <div id="menu" className="text-white mt-20 mx-4 lg:mx-12">
+    <div id="menu" className="text-white mt-32 mx-4 lg:mx-12">
       <div className="text-4xl">
         <p className="text-red-900 mb-4">Menu</p>
         <RedBar height="h-1" />
