@@ -26,7 +26,7 @@ const GalleryPage = () => {
       <div className="text-4xl">
         <p className="text-red-900 mb-4">Gallery</p>
         <RedBar height="h-1" />
-        <div className="py-12 text-lg lg:text-xl min-h-[50rem]">
+        <div className="py-12 text-lg lg:text-xl ">
           <Slider {...sliderSettings}>
             {images.map((image, i) => {
               return (
@@ -34,7 +34,7 @@ const GalleryPage = () => {
                   key={i}
                   src={image}
                   alt=""
-                  className="w-full object-cover rounded-md shadow-sm sm:rounded-lg min-h-[32rem] lg:min-h-[50rem]"
+                  className="w-full object-cover rounded-md shadow-sm sm:rounded-lg min-h-[28rem] lg:min-h-[50rem]"
                 />
               );
             })}
