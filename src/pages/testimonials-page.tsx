@@ -19,7 +19,7 @@ const TestimonialsPage = () => {
 
   return (
     <>
-      <div className="text-slate-950 mt-20 pt-8 px-12 min-h-[75vh] lg:min-h-[75vh]">
+      <div id="testimonials" className="text-slate-950 mt-20 pt-8 px-12 min-h-[75vh] lg:min-h-[75vh]">
         <div className="text-4xl">
           <p className="text-red-900 mb-4">Testimonials</p>
           <RedBar height="h-1" />

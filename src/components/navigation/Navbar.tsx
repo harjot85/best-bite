@@ -47,11 +47,11 @@ const Navbar = () => {
             navbarOptions.map((option) => {
               return (
                 <a
-                  key={option}
-                  href="#responsive-header"
+                  key={option.value}
+                  href={option.href}
                   className="block mt-4 lg:inline-block lg:mt-0 text-red-900 hover:text-red-500 mr-2 ml-12 text-lg"
                 >
-                  {option}
+                  {option.value}
                 </a>
               );
             })}

@@ -4,8 +4,8 @@ export const Footer = () => {
   const { name, phoneNumber, address } = data.business;
   const { city, country, province, street } = address;
   return (
-    <footer className="bg-white dark:bg-gray-900">
-      <div className="mx-auto w-full max-w-screen-xl p-4 lg:p-0 py-6 lg:py-8">
+    <footer id="contact" className="bg-white dark:bg-gray-900 pt-6">
+      <div className="mx-auto w-full max-w-screen-xl p-6 lg:p-0 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com/" className="flex items-center">
