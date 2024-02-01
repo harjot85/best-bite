@@ -808,15 +808,31 @@
           "mozzarella",
           "parmesan",
           "cheese and our unique blend of herbs",
-          " - Served with our homemade dip"
+          "Served with our homemade dip"
         ],
         "sizes": [
           { "name": "Small", "price": "$10.00" },
-          { "name": "Small with bacon\n", "price": "$11.00" },
           { "name": "Medium", "price": "$14.00" },
-          { "name": "Medium with Bacon", "price": "$15.75" },
-          { "name": "Large", "price": "$18.00" },
-          { "name": "Large with Bacon", "price": "$20.00" }
+          { "name": "Large", "price": "$18.00" }
+        ]
+      },
+      {
+        "name": "Cheesy Garlic Fingers with Bacon",
+        "classification": "meat",
+        "baseSauce": "",
+        "category": "wings",
+        "ingredients": [
+          "Strips of pizza crust",
+          "topped with homemade roasted garlic butter",
+          "mozzarella",
+          "parmesan",
+          "cheese and our unique blend of herbs",
+          "Served with our homemade dip"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$11.00" },
+          { "name": "Medium", "price": "$15.75" },
+          { "name": "Large", "price": "$20.00" }
         ]
       },
       {
