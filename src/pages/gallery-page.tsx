@@ -50,7 +50,7 @@ const GalleryPage = () => {
                   key={i}
                   src={image}
                   alt=""
-                  className="w-full object-cover rounded-md shadow-sm sm:rounded-lg"
+                  className="w-full object-cover rounded-md shadow-sm sm:rounded-lg min-h-[28rem]"
                 />
               );
             })}
