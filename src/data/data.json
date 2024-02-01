@@ -130,7 +130,617 @@
           { "name": "Large", "price": "$20.00" }
         ]
       },
-
+      {
+        "name": "Veggie Delight Pizza",
+        "classification": "vegetarian",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa Mozzarella",
+          "green onions",
+          "red peppers",
+          "sundried tomatoes",
+          "roasted garlic",
+          "feta"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Veggie Power Pizza",
+        "classification": "vegetarian",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa mozzarella",
+          "red onions",
+          "green peppers",
+          "mushrooms",
+          "ginger",
+          "cilantro",
+          "jalapenos"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Veggie Classic Pizza",
+        "classification": "vegetarian",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa Mozzarella",
+          "spinach",
+          "tomatoes",
+          "black olives",
+          "feta",
+          "red onions"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Cheese Lovers Pizza",
+        "classification": "vegetarian",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa Mozzarella",
+          "feta",
+          "romano",
+          "cheddar",
+          "parmesan"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Tropical Veggie Pizza",
+        "classification": "vegetarian",
+        "baseSauce": "Smoky Tropical-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Smoky tropical sauce",
+          "red onions",
+          "pineapple",
+          "red peppers",
+          "feta",
+          "banana peppers",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Veggie Pesto Pizza",
+        "classification": "vegetarian",
+        "baseSauce": "Basil Pesto",
+        "category": "pizza",
+        "ingredients": [
+          "Basil pesto",
+          "lotsa Mozzarella",
+          "red peppers",
+          "artichoke hearts",
+          "spinach",
+          "olives",
+          "feta"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Super Hawaiian Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa Mozzarella",
+          "ham",
+          "pineapple",
+          "green peppers",
+          "crumbled bacon"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Meat Lovers Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa mozzarella",
+          "pepperoni",
+          "ham",
+          "bacon",
+          "Italian Sauces",
+          "lean ground beef"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Bacon Cheeseburger Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa mozzarella",
+          "home-made roasted lean ground beef",
+          "bacon",
+          "tomatoes",
+          "red onions",
+          "cheddar"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "House Special Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa mozzarella",
+          "pepperoni",
+          "ham",
+          "red onions",
+          "green peppers",
+          "black olives"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Tropical Hawaiian Pizza",
+        "classification": "meat",
+        "baseSauce": "Smoky Tropical-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Smoky tropical sauce",
+          "ham",
+          "pineapple",
+          "bacon",
+          "cheddar",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Greek Classic Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa mozzarella",
+          "feta cheese",
+          "red onions",
+          "green peppers",
+          "black olives",
+          "roasted lean ground beef"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Mexicana Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa Mozzarella",
+          "roasted spicy lean ground beef",
+          "tomatoes",
+          "jalapeño peppers",
+          "green peppers",
+          "red onions"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Patate Sausage Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "lotsa Mozzarella",
+          "spicy sausage",
+          "red peppers",
+          "bacon",
+          "roasted potato",
+          "cheddar"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Sweet N Spicy Chicken Pizza",
+        "classification": "meat",
+        "baseSauce": "Sweet chilli sauce",
+        "category": "pizza",
+        "ingredients": [
+          "Sweet chilli sauce",
+          "grilled chicken breast",
+          "banana peppers",
+          "pineapple",
+          "red & green peppers",
+          "lotsa mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Tandoori Masala Chicken Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "roasted chicken breast marinated with tandoori masala",
+          "red onions",
+          "green peppers",
+          "tomatoes",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Super Taco Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "red onions",
+          "roasted lean ground beef & mozzarella baked then loaded with sour cream",
+          "lettuce",
+          "tomatoes & cheddar cheese"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Mediterranean Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "spinach",
+          "roasted lean ground beef",
+          "kalamata olives",
+          "red onion",
+          "feta",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Italian Classic Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "pepperoni",
+          "salami",
+          "green peppers",
+          "black olives",
+          "Italian sausage",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Chicken BBQ Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "red onions",
+          "green peppers",
+          "BBQ chicken breast",
+          "tomatoes",
+          "bacon",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Chicken Club Pizza",
+        "classification": "meat",
+        "baseSauce": "White-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Roasted garlic ranch sauce",
+          "ham",
+          "roasted chicken breast",
+          "tomatoes",
+          "bacon",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Buffalo Chicken Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "roasted chicken breast marinated with buffalo sauce",
+          "green peppers",
+          "red onions",
+          "spicy sausage",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Chicken Pesto Pizza",
+        "classification": "meat",
+        "baseSauce": "Creamy-pesto-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Creamy pesto sauce",
+          "grilled chicken",
+          "sundried tomato",
+          "bacon",
+          "mushrooms",
+          "red onions",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$25.00" }
+        ]
+      },
+      {
+        "name": "Chicken Fajita Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "grilled chicken breast",
+          "red peppers",
+          "green peppers",
+          "cheddar",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Thai Chicken Pizza",
+        "classification": "meat",
+        "baseSauce": "Sweet chilli sauce",
+        "category": "pizza",
+        "ingredients": [
+          "Sweet 'N' chilli sauce",
+          "spicy chicken breast",
+          "sundries tomatoes",
+          "pineapple",
+          "spring onions",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Chicken Caesar Pizza",
+        "classification": "meat",
+        "baseSauce": "creamy-caesar-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Spinach",
+          "roasted chicken breast",
+          "red onions",
+          "tomatoes",
+          "bacon",
+          "parmesan",
+          "creamy Caesar sauce",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$25.00" }
+        ]
+      },
+      {
+        "name": "Shrimp Lovers Pizza",
+        "classification": "meat",
+        "baseSauce": "Smoky Tropical-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Smoky tropical sauce",
+          "ham",
+          "red peppers",
+          "shrimp",
+          "green onions",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Tropical Chicken Pizza",
+        "classification": "meat",
+        "baseSauce": "Smoky Tropical-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Smokey tropical sauce",
+          "roasted chicken",
+          "pineapple",
+          "red onions",
+          "bacon",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Canadian Classic Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "salami",
+          "ham",
+          "mushrooms",
+          "bacon",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.00" },
+          { "name": "Medium", "price": "$19.50" },
+          { "name": "Large", "price": "$24.00" }
+        ]
+      },
+      {
+        "name": "Super Seafood Pizza",
+        "classification": "meat",
+        "baseSauce": "White-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Creamy Garlic sauce",
+          "wild pink shrimp",
+          "crab",
+          "red peppers",
+          "green onions",
+          "feta",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$25.00" }
+        ]
+      },
+      {
+        "name": "Ultimate Pizza",
+        "classification": "meat",
+        "baseSauce": "Tomato-sauce based",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "ham",
+          "onion",
+          "pineapple",
+          "green pepper",
+          "ground beef",
+          "italian sausage",
+          "bacon",
+          "black olives",
+          "lotsa Mozzarella"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$17.00" },
+          { "name": "Medium", "price": "$23.00" },
+          { "name": "Large", "price": "$28.00" }
+        ]
+      },
       {
         "name": "BBQ Wings",
         "classification": "meat",
@@ -139,7 +749,54 @@
         "ingredients": [],
         "sizes": [{ "name": "1 lb", "price": "$12.00" }]
       },
-
+      {
+        "name": "Honey Garlic wings",
+        "classification": "meat",
+        "baseSauce": "",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+      },
+      {
+        "name": "Hot Wings",
+        "classification": "meat",
+        "baseSauce": "",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+      },
+      {
+        "name": "Salt 'n' Pepper Wings",
+        "classification": "meat",
+        "baseSauce": "",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+      },
+      {
+        "name": "Teriyaki Wings",
+        "classification": "meat",
+        "baseSauce": "",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+      },
+      {
+        "name": "Tandoori Wings",
+        "classification": "meat",
+        "baseSauce": "",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+      },
+      {
+        "name": "Meatballs",
+        "classification": "meat",
+        "baseSauce": "",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "Meatballs", "price": "$7.00" }]
+      },
       {
         "name": "Garden Salad",
         "classification": "vegetarian",
@@ -148,18 +805,81 @@
         "ingredients": [],
         "sizes": [{ "name": "", "price": "$8.00" }]
       },
-
+      {
+        "name": "Caesar Salad",
+        "classification": "vegetarian",
+        "baseSauce": "",
+        "category": "side orders",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$8.00" }]
+      },
+      {
+        "name": "Greek Salad",
+        "classification": "vegetarian",
+        "baseSauce": "",
+        "category": "side orders",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$8.00" }]
+      },
       {
         "name": "Bottle of Pop",
-        "classification": "vegetarian",
+        "classification": "",
         "baseSauce": "",
         "category": "side orders",
         "ingredients": [],
         "sizes": [{ "name": "2L", "price": "$3.50" }]
       },
       {
+        "name": "Can of Pop",
+        "classification": "",
+        "baseSauce": "",
+        "category": "side orders",
+        "ingredients": [],
+        "sizes": [{ "name": "Can", "price": "$1.75" }]
+      },
+      {
+        "name": "Jalapeno Ranch dip",
+        "classification": "",
+        "baseSauce": "",
+        "category": "dips",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$0.95" }]
+      },
+      {
         "name": "Roasted Garlic Ranch dip",
-        "classification": "vegetarian",
+        "classification": "",
+        "baseSauce": "",
+        "category": "dips",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$0.95" }]
+      },
+      {
+        "name": "Sriracha Ranch dip",
+        "classification": "",
+        "baseSauce": "",
+        "category": "dips",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$0.95" }]
+      },
+      {
+        "name": "Cheesy Jalapeno dip",
+        "classification": "",
+        "baseSauce": "",
+        "category": "dips",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$0.95" }]
+      },
+      {
+        "name": "Blue Cheese dip",
+        "classification": "",
+        "baseSauce": "",
+        "category": "dips",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$0.95" }]
+      },
+      {
+        "name": "Chipotle dip",
+        "classification": "",
         "baseSauce": "",
         "category": "dips",
         "ingredients": [],
