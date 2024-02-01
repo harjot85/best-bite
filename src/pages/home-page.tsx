@@ -1,5 +1,5 @@
 import Navbar from "../components/navigation/Navbar";
-import wings from "../assets/p4.jpg";
+import Cover from "../assets/images/4.jpg";
 import data from "../data/data.json";
 
 const HomePage = () => {
@@ -7,7 +7,7 @@ const HomePage = () => {
     <>
       <RedBar height="h-1" />
       <Navbar />
-      <MainCover phoneNumber={data.business.phoneNumber} image={wings} />
+      <MainCover phoneNumber={data.business.phoneNumber} image={Cover} />
     </>
   );
 };
@@ -33,7 +33,7 @@ const MainCover = ({ phoneNumber, image }: MainCover) => {
 type Phone = { phoneNumber: string };
 const PhoneNumber = ({ phoneNumber }: Phone) => {
   return (
-    <div className="flex justify-start -mt-24 lg:-mt-24 ml-8 lg:ml-16 ">
+    <div className="flex justify-start -mt-28 lg:-mt-24 ml-8 lg:ml-16 ">
       <span
         className=" bg-red-800 text-lg font-semibold md:text-2xl
                           border-solid border-2 border-red-950 rounded-full
