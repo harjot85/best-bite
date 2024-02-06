@@ -7,8 +7,8 @@ enum Filter {
   All = "All",
   Vegetarian = "vegetarian",
   Meat = "meat",
-  TomatoSauceBased = "Tomato-sauce based",
-  WhiteSauceBased = "White-sauce based",
+  Pasta = "pasta",
+  CheesyFingers = "cheesy fingers",
   Wings = "wings",
   SideOrders = "side orders",
   dips = "dips",
@@ -26,8 +26,8 @@ const MenuPage = () => {
     Filter.All,
     Filter.Vegetarian,
     Filter.Meat,
-    Filter.TomatoSauceBased,
-    Filter.WhiteSauceBased,
+    Filter.Pasta,
+    Filter.CheesyFingers,
     Filter.Wings,
     Filter.SideOrders,
     Filter.dips,
@@ -40,10 +40,7 @@ const MenuPage = () => {
       setMenuList(menu);
     } else {
       const listFilteredByUserSelection = menu.filter(
-        (list) =>
-          list.category === filter ||
-          list.classification === filter ||
-          list.baseSauce === filter
+        (list) => list.category === filter || list.classification === filter
       );
 
       setMenuList(listFilteredByUserSelection);
@@ -57,7 +54,7 @@ const MenuPage = () => {
         <RedBar height="h-1" />
       </div>
 
-      <div className=" mb-24 flex flex-wrap space-x-4">
+      <div className="mb-12 flex flex-wrap space-x-4">
         {filters.map((filter) => (
           <Pill
             key={filter}
@@ -67,6 +64,15 @@ const MenuPage = () => {
           />
         ))}
       </div>
+      {selectedFilter === Filter.Pasta && (
+        <div className="text-2xl text-slate-500 mb-4 pl-6">
+          <em>
+            All Pasta dishes are oven baked with Mozzarella, served with{" "}
+            <span className="text-red-800">Garlic Toast</span> and{" "}
+            <span className="text-red-800">Tossed Salad</span>
+          </em>
+        </div>
+      )}
       <div className="grid lg:grid-cols-2 lg:gap-6">
         {menuList.map((item) => (
           <MenuItem key={item.name} item={item} />
@@ -82,7 +88,6 @@ type MenuItem = {
   item: {
     name: string;
     classification: string;
-    baseSauce: string;
     ingredients: string[];
     sizes: {
       name: string;
@@ -146,8 +151,14 @@ const Pill = ({ text, onClick, isSelected }: Pill) => {
 
   return (
     <button onClick={onClick} className={classes.join(" ")}>
-      <p className={textColor}>
+      <p className={`${textColor} flex`}>
         {text.charAt(0).toUpperCase() + text.slice(1)}
+
+        {text === "vegetarian" && (
+          <span className="ml-2">
+            <img src={Vegetarian} width={24} />
+          </span>
+        )}
       </p>
     </button>
   );
