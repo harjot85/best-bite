@@ -10,6 +10,7 @@ enum Filter {
   Pasta = "pasta",
   CheesyFingers = "cheesy fingers",
   Wings = "wings",
+  BuildYourOwn = "build your own",
   SideOrders = "side orders",
   dips = "dips",
 }
@@ -29,6 +30,7 @@ const MenuPage = () => {
     Filter.Pasta,
     Filter.CheesyFingers,
     Filter.Wings,
+    Filter.BuildYourOwn,
     Filter.SideOrders,
     Filter.dips,
   ];
@@ -50,7 +52,7 @@ const MenuPage = () => {
   return (
     <div id="menu" className="text-white mt-32 mx-4 lg:mx-12">
       <div className="text-4xl">
-        <p className="text-red-900 mb-4">Menu</p>
+        <p className="text-orange-700 mb-4">Menu</p>
         <RedBar height="h-1" />
       </div>
 
@@ -68,8 +70,8 @@ const MenuPage = () => {
         <div className="text-2xl text-slate-500 mb-4 pl-6">
           <em>
             All Pasta dishes are oven baked with Mozzarella, served with{" "}
-            <span className="text-red-800">Garlic Toast</span> and{" "}
-            <span className="text-red-800">Tossed Salad</span>
+            <span className="text-orange-700">Garlic Toast</span> and{" "}
+            <span className="text-orange-700">Tossed Salad</span>
           </em>
         </div>
       )}
@@ -134,7 +136,7 @@ const Pill = ({ text, onClick, isSelected }: Pill) => {
     "md:text-lg",
     "border-solid",
     "border-2",
-    "border-red-900",
+    "border-orange-700",
     "rounded-full",
     "px-6",
     "lg:px-12",
@@ -144,10 +146,10 @@ const Pill = ({ text, onClick, isSelected }: Pill) => {
   ];
 
   if (isSelected) {
-    classes.push("bg-red-800");
+    classes.push("bg-orange-700");
   }
 
-  const textColor = isSelected ? "text-black" : "text-red-800";
+  const textColor = isSelected ? "text-black" : "text-orange-700";
 
   return (
     <button onClick={onClick} className={classes.join(" ")}>

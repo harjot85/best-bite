@@ -1,5 +1,6 @@
 import { useState } from "react";
 import data from "../../data/data.json";
+import Logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,16 +9,16 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const { navbarOptions, name } = data.business;
+  const { navbarOptions } = data.business;
 
   return (
     <nav
       id="navbar"
-      className="flex items-center justify-between flex-wrap bg-black p-4 lg:p-6"
+      className="flex items-center justify-between flex-wrap bg-black px-4 py-1 lg:px-6"
     >
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-3xl tracking-tight text-red-900">
-          {name}
+      <div className="flex items-center flex-shrink-0 mr-6">
+        <span className="tracking-tight">
+          <img src={Logo} className="h-28" alt="" />
         </span>
       </div>
       <div className="block lg:hidden">
@@ -50,7 +51,7 @@ const Navbar = () => {
                   key={option.value}
                   href={option.href}
                   className="block mt-4 lg:inline-block lg:mt-0
-                             text-red-900 hover:text-red-500 mr-2 ml-12 text-xl font-semibold"
+                             text-orange-700 hover:text-orange-400 mr-2 ml-12 text-2xl font-medium"
                 >
                   {option.value}
                 </a>

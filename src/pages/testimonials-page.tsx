@@ -21,7 +21,7 @@ const TestimonialsPage = () => {
     <>
       <div id="testimonials" className="text-slate-950 mt-20 pt-8 px-12 min-h-[75vh] lg:min-h-[75vh]">
         <div className="text-4xl">
-          <p className="text-red-900 mb-4">Testimonials</p>
+          <p className="text-orange-700 mb-4">Testimonials</p>
           <RedBar height="h-1" />
           <div className="py-12 text-lg lg:text-xl ">
             <Slider {...sliderSettings}>
@@ -41,7 +41,7 @@ export default TestimonialsPage;
 
 const Testimonial = ({ testimonial }: { testimonial: string }) => {
   return (
-    <div className=" border-solid border-2 border-red-950 pt-8 m-2 min-h-[32rem]">
+    <div className=" border-solid border-2 border-orange-700 pt-8 m-2 min-h-[32rem]">
       <div className="grid grid-cols-12">
         <div className="col-span-2"></div>
         <div className="col-span-10">

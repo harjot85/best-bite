@@ -40,7 +40,7 @@ const GalleryPage = () => {
   return (
     <div id="gallery" className="text-slate-950 mt-20 pt-8 px-12">
       <div className="text-4xl">
-        <p className="text-red-900 mb-4">Gallery</p>
+        <p className="text-orange-700 mb-4">Gallery</p>
         <RedBar height="h-1" />
         <div className="py-12 text-lg lg:text-xl">
           <Slider {...sliderSettings}>

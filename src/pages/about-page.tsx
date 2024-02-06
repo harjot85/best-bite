@@ -5,9 +5,9 @@ const AboutPage = () => {
   const { lineOne, lineTwo, lineThree } = data.business.aboutText;
   return (
     <>
-      <div className="text-slate-950 mt-20 pt-8 px-12 bg-red-100 lg:h-[75vh]">
+      <div className="text-slate-950 mt-20 pt-8 px-12 bg-orange-100 lg:h-[75vh]">
         <div className="text-4xl">
-          <p className="text-red-900 mb-4">About</p>
+          <p className="text-orange-900 mb-4">About</p>
           <RedBar height="h-1" />
           <div className="py-12 text-lg lg:text-xl flex flex-col space-y-8">
             <p>{lineOne}</p>
