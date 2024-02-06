@@ -18,13 +18,13 @@ const Navbar = () => {
     >
       <div className="flex items-center flex-shrink-0 mr-6">
         <span className="tracking-tight">
-          <img src={Logo} className="h-28" alt="" />
+          <img src={Logo} className="h-20 lg:h-28" alt="" />
         </span>
       </div>
       <div className="block lg:hidden">
         <button
           id="navbar-toggle"
-          className="flex items-center px-3 py-2 border rounded text-red-700 border-red-700 hover:text-red hover:border-red"
+          className="flex items-center px-3 py-2 border rounded text-orange-600 border-orange-600 hover:text-red hover:border-red"
           onClick={toggleNavbar}
         >
           <svg
