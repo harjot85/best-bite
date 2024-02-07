@@ -2,6 +2,7 @@
   "business": {
     "name": "BestBite Pizza",
     "phoneNumber": "(604) 701-3334",
+    "servingYou":"Serving you since 1995",
     "address": {
       "street": "46372 Yale Road East",
       "city": "Chilliwack",
@@ -12,6 +13,7 @@
       { "value": "Menu", "href": "#menu" },
       { "value": "Gallery", "href": "#gallery" },
       { "value": "Testimonials", "href": "#testimonials" },
+      { "value": "About", "href": "#about" },
       { "value": "Contact", "href": "#contact" }
     ],
     "configuration": {

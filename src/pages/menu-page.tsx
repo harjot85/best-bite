@@ -67,11 +67,19 @@ const MenuPage = () => {
         ))}
       </div>
       {selectedFilter === Filter.Pasta && (
-        <div className="text-2xl text-slate-500 mb-4 pl-6">
+        <div className="lg:text-2xl text-lg text-slate-400 mb-4 pl-6">
           <em>
-            All Pasta dishes are oven baked with Mozzarella, served with{" "}
-            <span className="text-orange-700">Garlic Toast</span> and{" "}
-            <span className="text-orange-700">Tossed Salad</span>
+            <PastaText />
+          </em>
+        </div>
+      )}
+      {(selectedFilter === Filter.All ||
+        selectedFilter === Filter.BuildYourOwn ||
+        selectedFilter === Filter.Meat ||
+        selectedFilter === Filter.Vegetarian) && (
+        <div className="lg:text-2xl text-lg text-slate-400 mb-4 pl-6">
+          <em>
+            <PizzaText />
           </em>
         </div>
       )}
@@ -165,3 +173,15 @@ const Pill = ({ text, onClick, isSelected }: Pill) => {
     </button>
   );
 };
+
+const PastaText = () => {
+  return (
+    <>
+      All Pasta dishes are oven baked with Mozzarella, served with{" "}
+      <span className="text-orange-700">Garlic Toast</span> and{" "}
+      <span className="text-orange-700">Tossed Salad</span>
+    </>
+  );
+};
+
+const PizzaText = () => <span>*Gluten free crust available</span>;

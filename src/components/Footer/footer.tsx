@@ -1,17 +1,17 @@
 import data from "../../data/data.json";
+import Logo from "../../assets/images/logo.png";
 
 export const Footer = () => {
-  const { name, phoneNumber, address } = data.business;
+  const { phoneNumber, address } = data.business;
   const { city, country, province, street } = address;
   return (
     <footer id="contact" className="bg-white dark:bg-gray-900 pt-6">
       <div className="mx-auto w-full max-w-screen-xl p-6 lg:p-0 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" className="flex items-center">
-             
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-red-800">
-                {name}
+            <a href="#" className="flex items-center">
+              <span className="self-center whitespace-nowrap">
+                <img src={Logo} className="h-20 lg:h-28" alt="" />
               </span>
             </a>
           </div>
