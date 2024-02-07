@@ -29,7 +29,7 @@ const MainCover = ({ phoneNumber, image, subText }: MainCover) => {
   return (
     <div id="main-image flex">
       <img src={image} className="w-full h-[90vh] object-cover" />
-      <div className="text-orange-400 flex justify-start -mt-20 lg:-mt-24 ml-8 lg:ml-28">
+      <div className="text-orange-400 flex justify-start -mt-24 lg:-mt-24 ml-8 lg:ml-28">
         <em>{subText}</em>
       </div>
 
