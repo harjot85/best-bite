@@ -110,9 +110,9 @@
           "black olives"
         ],
         "sizes": [
-          { "name": "Small", "price": "$12.99" },
-          { "name": "Medium", "price": "$16.99" },
-          { "name": "Large", "price": "$21.99" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -128,9 +128,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$12.99" },
-          { "name": "Medium", "price": "$16.99" },
-          { "name": "Large", "price": "$21.99" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -144,9 +144,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$12.00" },
-          { "name": "Medium", "price": "$16.00" },
-          { "name": "Large", "price": "$20.00" }
+          { "name": "Small", "price": "$13.20" },
+          { "name": "Medium", "price": "$17.25" },
+          { "name": "Large", "price": "$21.50" }
         ]
       },
       {
@@ -160,9 +160,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$12.00" },
-          { "name": "Medium", "price": "$16.00" },
-          { "name": "Large", "price": "$20.00" }
+          { "name": "Small", "price": "$13.20" },
+          { "name": "Medium", "price": "$17.25" },
+          { "name": "Large", "price": "$21.50" }
         ]
       },
       {
@@ -175,9 +175,26 @@
           "grande mozzarella with blue cheese dressing drizzle"
         ],
         "sizes": [
-          { "name": "Small", "price": "$12.00" },
-          { "name": "Medium", "price": "$16.00" },
-          { "name": "Large", "price": "$20.00" }
+          { "name": "Small", "price": "$13.20" },
+          { "name": "Medium", "price": "$17.25" },
+          { "name": "Large", "price": "$21.50" }
+        ]
+      },
+      {
+        "name": "HOT-HONEY Pizza",
+        "classification": "meat",
+        "category": "pizza",
+        "ingredients": [
+          "Tomato sauce",
+          "Dry Curd Pepperoni",
+          "Back Bacon",
+          "grande mozzarella",
+          "Hot Honey Sauce Drizzle"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$13.20" },
+          { "name": "Medium", "price": "$17.25" },
+          { "name": "Large", "price": "$21.50" }
         ]
       },
       {
@@ -191,9 +208,9 @@
           "pesto"
         ],
         "sizes": [
-          { "name": "Small", "price": "$12.00" },
-          { "name": "Medium", "price": "$16.00" },
-          { "name": "Large", "price": "$20.00" }
+          { "name": "Small", "price": "$13.20" },
+          { "name": "Medium", "price": "$17.25" },
+          { "name": "Large", "price": "$21.50" }
         ]
       },
       {
@@ -210,9 +227,9 @@
           "feta"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -230,9 +247,9 @@
           "jalapenos"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -249,9 +266,9 @@
           "red onions"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -267,9 +284,9 @@
           "parmesan"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -286,9 +303,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -305,9 +322,9 @@
           "feta"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -323,9 +340,9 @@
           "crumbled bacon"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -342,9 +359,9 @@
           "lean ground beef"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -361,9 +378,9 @@
           "cheddar"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -380,9 +397,9 @@
           "black olives"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -398,9 +415,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -417,9 +434,9 @@
           "roasted lean ground beef"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -436,28 +453,28 @@
           "red onions"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
-        "name": "Patate Sausage Pizza",
+        "name": "Sausage Lovers Pizza",
         "classification": "meat",
         "category": "pizza",
         "ingredients": [
           "Tomato sauce",
-          "Grande Mozzarella",
-          "spicy sausage",
-          "red peppers",
-          "bacon",
-          "roasted potato",
-          "cheddar"
+          "red onions",
+          "chorizo sausage",
+          "mushrooms",
+          "parmesan",
+          "italian sausage",
+          "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -473,9 +490,9 @@
           "Grande mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -491,9 +508,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -508,9 +525,9 @@
           "tomatoes & cheddar cheese"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -527,9 +544,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -546,9 +563,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -565,9 +582,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -583,9 +600,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -601,9 +618,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -620,9 +637,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.50" },
-          { "name": "Medium", "price": "$20.00" },
-          { "name": "Large", "price": "$25.00" }
+          { "name": "Small", "price": "$16.00" },
+          { "name": "Medium", "price": "$21.00" },
+          { "name": "Large", "price": "$26.00" }
         ]
       },
       {
@@ -638,9 +655,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -656,9 +673,28 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
+        ]
+      },
+      {
+        "name": "PEROGIZZA",
+        "classification": "meat",
+        "category": "pizza",
+        "ingredients": [
+          "Creamy Chipotle Sauce",
+          "Roasted Potatoes",
+          "red onions",
+          "black bacon",
+          "cheddar",
+          "Grande Mozzarella",
+          "Topped With Green Onions & Sour Cream"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -676,9 +712,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.50" },
-          { "name": "Medium", "price": "$20.00" },
-          { "name": "Large", "price": "$25.00" }
+          { "name": "Small", "price": "$16.00" },
+          { "name": "Medium", "price": "$21.00" },
+          { "name": "Large", "price": "$26.00" }
         ]
       },
       {
@@ -694,9 +730,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -712,9 +748,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -730,9 +766,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.00" },
-          { "name": "Medium", "price": "$19.50" },
-          { "name": "Large", "price": "$24.00" }
+          { "name": "Small", "price": "$15.50" },
+          { "name": "Medium", "price": "$20.00" },
+          { "name": "Large", "price": "$24.50" }
         ]
       },
       {
@@ -749,9 +785,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$15.50" },
-          { "name": "Medium", "price": "$20.00" },
-          { "name": "Large", "price": "$25.00" }
+          { "name": "Small", "price": "$16.00" },
+          { "name": "Medium", "price": "$21.00" },
+          { "name": "Large", "price": "$26.00" }
         ]
       },
       {
@@ -771,9 +807,9 @@
           "Grande Mozzarella"
         ],
         "sizes": [
-          { "name": "Small", "price": "$17.00" },
-          { "name": "Medium", "price": "$23.00" },
-          { "name": "Large", "price": "$28.00" }
+          { "name": "Small", "price": "$17.75" },
+          { "name": "Medium", "price": "$24.00" },
+          { "name": "Large", "price": "$30.00" }
         ]
       },
       {
@@ -828,42 +864,56 @@
         "classification": "meat",
         "category": "wings",
         "ingredients": [],
-        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
+      },
+      {
+        "name": "Buffalo Wings",
+        "classification": "meat",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
       },
       {
         "name": "Honey Garlic wings",
         "classification": "meat",
         "category": "wings",
         "ingredients": [],
-        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
       },
       {
         "name": "Hot Wings",
         "classification": "meat",
         "category": "wings",
         "ingredients": [],
-        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
       },
       {
         "name": "Salt 'n' Pepper Wings",
         "classification": "meat",
         "category": "wings",
         "ingredients": [],
-        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
       },
       {
         "name": "Teriyaki Wings",
         "classification": "meat",
         "category": "wings",
         "ingredients": [],
-        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
       },
       {
-        "name": "Tandoori Wings",
+        "name": "Thai Sweet-Chilli Wings",
         "classification": "meat",
         "category": "wings",
         "ingredients": [],
-        "sizes": [{ "name": "1 lb", "price": "$12.00" }]
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
+      },
+      {
+        "name": "Tandoori Masala Wings",
+        "classification": "meat",
+        "category": "wings",
+        "ingredients": [],
+        "sizes": [{ "name": "1 lb", "price": "$14.00" }]
       },
       {
         "name": "Meatballs",
@@ -871,6 +921,13 @@
         "category": "wings",
         "ingredients": [],
         "sizes": [{ "name": "Meatballs", "price": "$7.00" }]
+      },
+      {
+        "name": "Potato Wedges",
+        "classification": "vegetarian",
+        "category": "side orders",
+        "ingredients": [],
+        "sizes": [{ "name": "Oven roasted Potato Wedges + 2 Dips", "price": "$6.00" }]
       },
       {
         "name": "Cheesy Garlic Fingers",
@@ -885,9 +942,9 @@
           "Served with our homemade dip"
         ],
         "sizes": [
-          { "name": "Small", "price": "$10.00" },
-          { "name": "Medium", "price": "$14.00" },
-          { "name": "Large", "price": "$18.00" }
+          { "name": "Small", "price": "$11.00" },
+          { "name": "Medium", "price": "$15.00" },
+          { "name": "Large", "price": "$19.00" }
         ]
       },
       {
@@ -903,9 +960,9 @@
           "Served with our homemade dip"
         ],
         "sizes": [
-          { "name": "Small", "price": "$11.00" },
-          { "name": "Medium", "price": "$15.75" },
-          { "name": "Large", "price": "$20.00" }
+          { "name": "Small", "price": "$12.35" },
+          { "name": "Medium", "price": "$16.75" },
+          { "name": "Large", "price": "$21.00" }
         ]
       },
       {
@@ -927,7 +984,14 @@
         "classification": "vegetarian",
         "category": "side orders",
         "ingredients": [],
-        "sizes": [{ "name": "", "price": "$8.00" }]
+        "sizes": [{ "name": "", "price": "$10.00" }]
+      },
+      {
+        "name": "Chicken Caesar Salad",
+        "classification": "meat",
+        "category": "side orders",
+        "ingredients": [],
+        "sizes": [{ "name": "", "price": "$11.00" }]
       },
       {
         "name": "Bottle of Pop",
@@ -941,7 +1005,7 @@
         "classification": "",
         "category": "side orders",
         "ingredients": [],
-        "sizes": [{ "name": "Can", "price": "$1.75" }]
+        "sizes": [{ "name": "Can", "price": "$1.50" }]
       },
       {
         "name": "Jalapeno Ranch dip",
