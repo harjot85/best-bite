@@ -1,4 +1,4 @@
-import Vegetarian from "../assets/vegetarian.png";
+import Vegetarian from "../../assets/vegetarian.png";
 
 type MenuItem = {
   item: {
