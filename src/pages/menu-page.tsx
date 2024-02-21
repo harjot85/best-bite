@@ -1,8 +1,10 @@
 import { RedBar } from "./home-page";
 import BuildYourOwn from "../components/menu/menu";
+import MenuItem from "../components/menu/menu-item";
+import FilterPill from "../components/menu/filter-pill";
+
 import data from "../data/data.json";
-import Vegetarian from "../assets/vegetarian.png";
-import { MouseEventHandler, useState } from "react";
+import { useState } from "react";
 
 enum Filter {
   All = "All",
@@ -36,7 +38,7 @@ const MenuPage = () => {
     Filter.dips,
   ];
 
-  const handlePillClick = (filter: Filter) => {
+  const handleFilterPillClick = (filter: Filter) => {
     setSelectedFilter(filter);
 
     if (filter === Filter.All) {
@@ -59,10 +61,10 @@ const MenuPage = () => {
 
       <div className="mb-12 flex flex-wrap space-x-4">
         {filters.map((filter) => (
-          <Pill
+          <FilterPill
             key={filter}
             text={filter}
-            onClick={() => handlePillClick(filter)}
+            onClick={() => handleFilterPillClick(filter)}
             isSelected={filter === selectedFilter}
           />
         ))}
@@ -98,86 +100,6 @@ const MenuPage = () => {
 };
 
 export default MenuPage;
-
-type MenuItem = {
-  item: {
-    name: string;
-    classification: string;
-    ingredients: string[];
-    sizes: {
-      name: string;
-      price: string;
-    }[];
-  };
-};
-const MenuItem = ({ item }: MenuItem) => {
-  const {} = item;
-
-  return (
-    <div className="border-b-2 border-slate-800 md:border-slate-950 p-6 text-slate-400">
-      <div className="text-2xl lg:text-4xl mb-4 flex space-x-12 items-start">
-        <span>{item.name}</span>
-
-        {item.classification === "vegetarian" && (
-          <span>
-            <img src={Vegetarian} width={36} />
-          </span>
-        )}
-      </div>
-      <div className="text-lg lg:text-xl mb-6">
-        {item.ingredients.join(", ")}
-      </div>
-      <div className="text-lg lg:text-xl font-semibold flex space-x-6">
-        {item.sizes &&
-          item.sizes.map((size) => (
-            <span key={size.name}>{`${size.name}  ${size.price}`}</span>
-          ))}
-      </div>
-    </div>
-  );
-};
-
-type Pill = {
-  text: string;
-  onClick: MouseEventHandler<HTMLButtonElement>;
-  isSelected: boolean;
-};
-const Pill = ({ text, onClick, isSelected }: Pill) => {
-  let classes = [
-    "text-lg",
-    "font-semibold",
-    "md:text-lg",
-    "border-solid",
-    "border-2",
-    "border-orange-700",
-    "rounded-full",
-    "px-6",
-    "lg:px-12",
-    "py-2",
-    "lg:py-2",
-    "mt-4",
-  ];
-
-  if (isSelected) {
-    classes.push("bg-orange-700");
-  }
-
-  const textColor = isSelected ? "text-black" : "text-orange-700";
-
-  return (
-    <button onClick={onClick} className={classes.join(" ")}>
-      <p className={`${textColor} flex`}>
-        {text.charAt(0).toUpperCase() + text.slice(1)}
-
-        {text === "vegetarian" && (
-          <span className="ml-2">
-            <img src={Vegetarian} width={24} />
-          </span>
-        )}
-      </p>
-    </button>
-  );
-};
 
 const PastaText = () => {
   return (
