@@ -20,6 +20,11 @@
       "colorA": "text-red-900",
       "colorB": ""
     },
+    "disclaimer": {
+      "lineOne": "Let the server know about your allergies.",
+      "lineTwo": "Prices subject to change without notice.",
+      "lineThree": "All prices subject to applicable taxes and bottle deposits."
+    },
     "aboutText": {
       "lineOne": "Bestbite Pizza, isn't a figure of speech, or a bombast. We literally promise you the best taste in every bite.",
       "lineTwo": "Our family-owned business does not compromise in gourmet quality. The dough is prepared fresh daily with the finest flour. The mouth watering, homemade tomato sauce is inspired by Italian cooking with a blend of seasonings fine-tuned by the Kang family since 1995.",

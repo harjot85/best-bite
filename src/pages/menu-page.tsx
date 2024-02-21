@@ -95,6 +95,10 @@ const MenuPage = () => {
           <MenuItem key={item.name} item={item} />
         ))}
       </div>
+
+      <div className="mt-20 text-slate-600 text-lg italic">
+        <Disclaimer disclaimer={data.business.disclaimer} />
+      </div>
     </div>
   );
 };
@@ -112,3 +116,21 @@ const PastaText = () => {
 };
 
 const PizzaText = () => <span>*Gluten free crust available</span>;
+
+type DisclaimerProps = {
+  disclaimer: {
+    lineOne: string;
+    lineTwo: string;
+    lineThree: string;
+  };
+};
+const Disclaimer = (disclaimer: DisclaimerProps) => {
+  const { lineOne, lineTwo, lineThree } = disclaimer.disclaimer;
+  return (
+    <div className="flex flex-wrap space-x-8">
+      <span>*{lineOne}</span>
+      <span>*{lineTwo}</span>
+      <span>*{lineThree}</span>
+    </div>
+  );
+};
