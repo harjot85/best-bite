@@ -1,4 +1,5 @@
 import { RedBar } from "./home-page";
+import BuildYourOwn from "../components/menu/menu";
 import data from "../data/data.json";
 import Vegetarian from "../assets/vegetarian.png";
 import { MouseEventHandler, useState } from "react";
@@ -66,6 +67,7 @@ const MenuPage = () => {
           />
         ))}
       </div>
+
       {selectedFilter === Filter.Pasta && (
         <div className="lg:text-2xl text-lg text-slate-400 mb-4 pl-6">
           <em>
@@ -83,6 +85,9 @@ const MenuPage = () => {
           </em>
         </div>
       )}
+
+      {selectedFilter === Filter.BuildYourOwn && <BuildYourOwn />}
+
       <div className="grid lg:grid-cols-2 lg:gap-6">
         {menuList.map((item) => (
           <MenuItem key={item.name} item={item} />

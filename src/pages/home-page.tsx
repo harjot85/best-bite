@@ -75,7 +75,7 @@ type Phone = { phoneNumber: string };
 const PhoneNumber = ({ phoneNumber }: Phone) => {
   return (
     <span
-      className=" bg-orange-700 text-lg font-semibold md:text-2xl
+      className=" bg-orange-700 border-orange-900 border-2 text-lg font-semibold md:text-2xl
                            rounded-full
                           px-6 lg:px-16 py-2 lg:py-4"
     >

@@ -2,7 +2,7 @@
   "business": {
     "name": "BestBite Pizza",
     "phoneNumber": "(604) 701-3334",
-    "servingYou":"Serving you since 1995",
+    "servingYou": "Serving you since 1995",
     "address": {
       "street": "46372 Yale Road East",
       "city": "Chilliwack",
@@ -35,6 +35,61 @@
       "Ordered for the first time and it was amazing super friendly staff pizza looks and tastes great pizza dough is very soft and fluffy there roasted garlic sauce and there blue cheese sauce are amazing you should definitely try it",
       "My favorite pizza place! Delicious pizza with so many topping options.  Lots of vegetarian options to choose from. Delivery is always on time and professional and pickup quick and efficient.  Definitely recommend"
     ],
+    "buildYourOwn": {
+      "crust": {
+        "title": "Crust",
+        "options": "Original, Thin, Gluten Free Crust (med, size.5)"
+      },
+      "sauce": {
+        "title": "Sauce",
+        "options": "Homemade Italian Tomato Sauce"
+      },
+      "specialSauce": {
+        "title": "Special Sauce",
+        "options": "Garlic Ranch, Tropical Smoky, Pesto, Thai sweet Chili, Creamy Garlic Caesar"
+      },
+      "toppings": [
+        {
+          "type": "vegetables",
+          "options": [
+            "Black Olives",
+            "Green Peppers",
+            "Red Peppers",
+            "Tomatoes",
+            "Mushrooms",
+            "Roasted Potatoes",
+            "Sun dried Tomato",
+            "Pineapple",
+            "Fresh Garlic",
+            "Roasted Garlic",
+            "Red Onions",
+            "Green Onions",
+            "Baby Spinach",
+            "Jalapeño Peppers",
+            "Banana Peppers"
+          ]
+        },
+        {
+          "type": "meat",
+          "options": [
+            "Pepperoni",
+            "Salami",
+            "Ham",
+            "Back Bacon",
+            "Ground Beef",
+            "Shrimp",
+            "Grilled Chicken",
+            "BBQ Chicken",
+            "Tandoori Chicken",
+            "Italian Sausage"
+          ]
+        },
+        {
+          "type": "cheese",
+          "options": ["Cheddar", "Feta", "Parmesan"]
+        }
+      ]
+    },
     "menu": [
       {
         "name": "Veggie Garden Pizza",
@@ -93,7 +148,12 @@
         "name": "Hawaiian Pizza",
         "classification": "meat",
         "category": "pizza",
-        "ingredients": ["Tomato sauce", "Ham", "Pineapple", "Grande Mozzarella"],
+        "ingredients": [
+          "Tomato sauce",
+          "Ham",
+          "Pineapple",
+          "Grande Mozzarella"
+        ],
         "sizes": [
           { "name": "Small", "price": "$12.00" },
           { "name": "Medium", "price": "$16.00" },
