@@ -823,14 +823,19 @@
         "name": "Penne Alfredo",
         "classification": "meat",
         "category": "pasta",
-        "ingredients": ["With Alfredo sauce"],
+        "ingredients": ["With Alfredo sauce", "Grande Mozzarella"],
         "sizes": [{ "name": "", "price": "$16.95" }]
       },
       {
         "name": "Chicken Alfredo",
         "classification": "meat",
         "category": "pasta",
-        "ingredients": ["Penne Noodles", "Grilled Chicken", "Alfredo Sauce"],
+        "ingredients": [
+          "Penne Noodles",
+          "Grilled Chicken",
+          "Alfredo Sauce",
+          "Grande Mozzarella"
+        ],
         "sizes": [{ "name": "", "price": "$18.95" }]
       },
       {
@@ -841,7 +846,8 @@
           "Penne Noodles",
           "Grilled Chicken",
           "Spicy Sausage",
-          "Medium Spicy Creamy Tomato Sauce"
+          "Medium Spicy Creamy Tomato Sauce",
+          "Grande Mozzarella"
         ],
         "sizes": [{ "name": "", "price": "$18.95" }]
       },
@@ -854,7 +860,8 @@
           "Red & Green Peppers",
           "Onions",
           "Mushrooms",
-          "Creamy Tomato Sauce"
+          "Creamy Tomato Sauce",
+          "Grande Mozzarella"
         ],
         "sizes": [{ "name": "", "price": "$16.95" }]
       },
@@ -920,14 +927,18 @@
         "classification": "meat",
         "category": "wings",
         "ingredients": [],
-        "sizes": [{ "name": "Meatballs", "price": "$7.00" }]
+        "sizes": [
+          { "name": "With Meat Sauce & Grande Mozzarella", "price": "$7.00" }
+        ]
       },
       {
         "name": "Potato Wedges",
         "classification": "vegetarian",
         "category": "side orders",
         "ingredients": [],
-        "sizes": [{ "name": "Oven roasted Potato Wedges + 2 Dips", "price": "$6.00" }]
+        "sizes": [
+          { "name": "Oven roasted Potato Wedges + 2 Dips", "price": "$6.00" }
+        ]
       },
       {
         "name": "Cheesy Garlic Fingers",
