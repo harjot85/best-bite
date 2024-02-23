@@ -57,41 +57,41 @@
         {
           "type": "vegetables",
           "options": [
-            "Black Olives",
-            "Green Peppers",
-            "Red Peppers",
-            "Tomatoes",
-            "Mushrooms",
-            "Roasted Potatoes",
-            "Sun dried Tomato",
-            "Pineapple",
-            "Fresh Garlic",
-            "Roasted Garlic",
-            "Red Onions",
-            "Green Onions",
-            "Baby Spinach",
-            "Jalapeño Peppers",
-            "Banana Peppers"
+            "Black Olives.",
+            "Green Peppers.",
+            "Red Peppers.",
+            "Tomatoes.",
+            "Mushrooms.",
+            "Roasted Potatoes.",
+            "Sun dried Tomato.",
+            "Pineapple.",
+            "Fresh Garlic.",
+            "Roasted Garlic.",
+            "Red Onions.",
+            "Green Onions.",
+            "Baby Spinach.",
+            "Jalapeño Peppers.",
+            "Banana Peppers."
           ]
         },
         {
           "type": "meat",
           "options": [
-            "Pepperoni",
-            "Salami",
-            "Ham",
-            "Back Bacon",
-            "Ground Beef",
-            "Shrimp",
-            "Grilled Chicken",
-            "BBQ Chicken",
-            "Tandoori Chicken",
-            "Italian Sausage"
+            "Pepperoni.",
+            "Salami.",
+            "Ham.",
+            "Back Bacon.",
+            "Ground Beef.",
+            "Shrimp.",
+            "Grilled Chicken.",
+            "BBQ Chicken.",
+            "Tandoori Chicken.",
+            "Italian Sausage."
           ]
         },
         {
           "type": "cheese",
-          "options": ["Cheddar", "Feta", "Parmesan"]
+          "options": ["Cheddar.", "Feta.", "Parmesan."]
         }
       ]
     },
@@ -279,7 +279,7 @@
           "Tomato sauce",
           "Grande Mozzarella",
           "feta",
-          "romano",
+          "asiago",
           "cheddar",
           "parmesan"
         ],
@@ -337,7 +337,7 @@
           "ham",
           "pineapple",
           "green peppers",
-          "crumbled bacon"
+          "back bacon"
         ],
         "sizes": [
           { "name": "Small", "price": "$15.50" },
@@ -356,7 +356,7 @@
           "ham",
           "bacon",
           "Italian Sauces",
-          "lean ground beef"
+          "seasoned lean ground beef"
         ],
         "sizes": [
           { "name": "Small", "price": "$15.50" },
@@ -371,7 +371,7 @@
         "ingredients": [
           "Tomato sauce",
           "Grande mozzarella",
-          "home-made roasted lean ground beef",
+          "seasoned lean ground beef",
           "bacon",
           "tomatoes",
           "red onions",
@@ -431,7 +431,7 @@
           "red onions",
           "green peppers",
           "black olives",
-          "roasted lean ground beef"
+          "seasoned lean ground beef"
         ],
         "sizes": [
           { "name": "Small", "price": "$15.50" },
@@ -446,7 +446,7 @@
         "ingredients": [
           "Tomato sauce",
           "Grande Mozzarella",
-          "roasted spicy lean ground beef",
+          "roasted spicy seasoned lean ground beef",
           "tomatoes",
           "jalapeño peppers",
           "green peppers",
@@ -520,7 +520,7 @@
         "ingredients": [
           "Tomato sauce",
           "red onions",
-          "roasted lean ground beef & mozzarella baked then loaded with sour cream",
+          "seasoned lean ground beef & mozzarella baked then loaded with sour cream",
           "lettuce",
           "tomatoes & cheddar cheese"
         ],
@@ -537,8 +537,8 @@
         "ingredients": [
           "Tomato sauce",
           "spinach",
-          "roasted lean ground beef",
-          "kalamata olives",
+          "seasoned lean ground beef",
+          "black olives",
           "red onion",
           "feta",
           "Grande Mozzarella"
@@ -628,7 +628,7 @@
         "classification": "meat",
         "category": "pizza",
         "ingredients": [
-          "Creamy pesto sauce",
+          "Basil pesto sauce",
           "grilled chicken",
           "sundried tomato",
           "bacon",
@@ -686,7 +686,7 @@
           "Creamy Chipotle Sauce",
           "Roasted Potatoes",
           "red onions",
-          "black bacon",
+          "back bacon",
           "cheddar",
           "Grande Mozzarella",
           "Topped With Green Onions & Sour Cream"
@@ -802,7 +802,7 @@
           "green pepper",
           "ground beef",
           "italian sausage",
-          "bacon",
+          "back bacon",
           "black olives",
           "Grande Mozzarella"
         ],
@@ -816,7 +816,7 @@
         "name": "Lasagna",
         "classification": "meat",
         "category": "pasta",
-        "ingredients": ["With Meat sauce"],
+        "ingredients": ["With Meat sauce and Grande Mozzarella"],
         "sizes": [{ "name": "", "price": "$16.95" }]
       },
       {
@@ -925,7 +925,7 @@
       {
         "name": "Meatballs",
         "classification": "meat",
-        "category": "wings",
+        "category": "side orders",
         "ingredients": [],
         "sizes": [
           { "name": "With Meat Sauce & Grande Mozzarella", "price": "$7.00" }
@@ -937,7 +937,16 @@
         "category": "side orders",
         "ingredients": [],
         "sizes": [
-          { "name": "Oven roasted Potato Wedges + 2 Dips", "price": "$6.00" }
+          { "name": "Oven roasted Potato Wedges + 2 Dips - 1lb", "price": "$6.00" }
+        ]
+      },
+      {
+        "name": "Boneless Dry Ribs",
+        "classification": "meat",
+        "category": "side orders",
+        "ingredients": [],
+        "sizes": [
+          { "name": "Oven Roasted Dry Ribs Served + 2 Dips - 1lb", "price": "$12.00" }
         ]
       },
       {
@@ -948,8 +957,7 @@
           "Strips of pizza crust",
           "topped with homemade roasted garlic butter",
           "grande mozzarella",
-          "parmesan",
-          "cheese and our unique blend of herbs",
+          "parmesan and our unique blend of herbs",
           "Served with our homemade dip"
         ],
         "sizes": [
@@ -966,8 +974,7 @@
           "Strips of pizza crust",
           "topped with homemade roasted garlic butter",
           "grande mozzarella",
-          "parmesan",
-          "cheese and our unique blend of herbs",
+          "parmesan and our unique blend of herbs",
           "Served with our homemade dip"
         ],
         "sizes": [

@@ -42,7 +42,7 @@ const BuildYourOwnCategory = (topping: { topping: ToppingProps }) => {
       <ul>
         {topping.topping.options.map((t) => (
           <li>
-            <span className="text-slate-400 text-lg lg:text-xl">{t}</span>
+            <span className="text-slate-400 text-lg lg:text-lg">{t}</span>
           </li>
         ))}
       </ul>
