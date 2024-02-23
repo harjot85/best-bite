@@ -222,7 +222,7 @@
           "Grande Mozzarella",
           "green onions",
           "red peppers",
-          "sundried tomatoes",
+          "sun-dried tomatoes",
           "roasted garlic",
           "feta"
         ],
@@ -630,7 +630,7 @@
         "ingredients": [
           "Basil pesto sauce",
           "grilled chicken",
-          "sundried tomato",
+          "sun-dried tomato",
           "bacon",
           "mushrooms",
           "red onions",
@@ -667,7 +667,7 @@
         "ingredients": [
           "Sweet 'N' chilli sauce",
           "spicy chicken breast",
-          "sundries tomatoes",
+          "sun-dried tomatoes",
           "pineapple",
           "spring onions",
           "Grande Mozzarella"
@@ -946,7 +946,7 @@
         "category": "side orders",
         "ingredients": [],
         "sizes": [
-          { "name": "Oven Roasted Dry Ribs Served + 2 Dips - 1lb", "price": "$12.00" }
+          { "name": "Oven Roasted Dry Ribs + 2 Dips - 1lb", "price": "$12.00" }
         ]
       },
       {

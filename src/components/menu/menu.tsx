@@ -20,7 +20,7 @@ const BuildYourOwn = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 mt-12">
+      <div className="grid grid-cols-2 gap-4 mt-12">
         {menu.toppings.map((topping) => (
           <BuildYourOwnCategory key={topping.type} topping={topping} />
         ))}
