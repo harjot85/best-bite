@@ -17,7 +17,7 @@ const MenuItem = ({ item }: MenuItem) => {
   return (
     <div className="border-b-2 border-slate-800 md:border-slate-950 p-6 text-slate-400">
       <div className="text-2xl lg:text-4xl mb-4 flex space-x-12 items-start">
-        <span>{item.name}</span>
+        <span className="text-orange-700">{item.name}</span>
 
         {item.classification === "vegetarian" && (
           <span>

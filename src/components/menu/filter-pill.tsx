@@ -8,9 +8,9 @@ type FilterPill = {
 };
 const FilterPill = ({ text, onClick, isSelected }: FilterPill) => {
   let classes = [
-    "text-lg",
-    "font-semibold",
-    "md:text-lg",
+    "text-xl",
+    "font-bold",
+    "md:text-xl",
     "border-solid",
     "border-2",
     "border-orange-700",
@@ -30,7 +30,7 @@ const FilterPill = ({ text, onClick, isSelected }: FilterPill) => {
 
   return (
     <button onClick={onClick} className={classes.join(" ")}>
-      <p className={`${textColor} flex`}>
+      <p className={`${textColor} flex `}>
         {text.charAt(0).toUpperCase() + text.slice(1)}
 
         {text === "vegetarian" && (
