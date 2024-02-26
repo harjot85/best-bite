@@ -813,6 +813,40 @@
         ]
       },
       {
+        "name": "Cheesy Garlic Fingers",
+        "classification": "vegetarian",
+        "category": "cheesy fingers",
+        "ingredients": [
+          "Strips of pizza crust",
+          "topped with homemade roasted garlic butter",
+          "grande mozzarella",
+          "parmesan and our unique blend of herbs",
+          "Served with our homemade dip"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$11.00" },
+          { "name": "Medium", "price": "$15.00" },
+          { "name": "Large", "price": "$19.00" }
+        ]
+      },
+      {
+        "name": "Cheesy Garlic Fingers with Bacon",
+        "classification": "meat",
+        "category": "cheesy fingers",
+        "ingredients": [
+          "Strips of pizza crust",
+          "topped with homemade roasted garlic butter",
+          "grande mozzarella",
+          "parmesan and our unique blend of herbs",
+          "Served with our homemade dip"
+        ],
+        "sizes": [
+          { "name": "Small", "price": "$12.35" },
+          { "name": "Medium", "price": "$16.75" },
+          { "name": "Large", "price": "$21.00" }
+        ]
+      },
+      {
         "name": "Lasagna",
         "classification": "meat",
         "category": "pasta",
@@ -820,14 +854,14 @@
         "sizes": [{ "name": "", "price": "$16.95" }]
       },
       {
-        "name": "Penne Alfredo",
-        "classification": "meat",
+        "name": "Penne Alfredo Pasta",
+        "classification": "vegetarian",
         "category": "pasta",
         "ingredients": ["With Alfredo sauce", "Grande Mozzarella"],
         "sizes": [{ "name": "", "price": "$16.95" }]
       },
       {
-        "name": "Chicken Alfredo",
+        "name": "Chicken Alfredo Pasta",
         "classification": "meat",
         "category": "pasta",
         "ingredients": [
@@ -839,7 +873,7 @@
         "sizes": [{ "name": "", "price": "$18.95" }]
       },
       {
-        "name": "Spicy Penne Marinara",
+        "name": "Spicy Penne Marinara Pasta",
         "classification": "meat",
         "category": "pasta",
         "ingredients": [
@@ -937,7 +971,10 @@
         "category": "side orders",
         "ingredients": [],
         "sizes": [
-          { "name": "Oven roasted Potato Wedges + 2 Dips - 1lb", "price": "$6.00" }
+          {
+            "name": "Oven roasted Potato Wedges + 2 Dips - 1lb",
+            "price": "$6.00"
+          }
         ]
       },
       {
@@ -949,40 +986,7 @@
           { "name": "Oven Roasted Dry Ribs + 2 Dips - 1lb", "price": "$12.00" }
         ]
       },
-      {
-        "name": "Cheesy Garlic Fingers",
-        "classification": "vegetarian",
-        "category": "cheesy fingers",
-        "ingredients": [
-          "Strips of pizza crust",
-          "topped with homemade roasted garlic butter",
-          "grande mozzarella",
-          "parmesan and our unique blend of herbs",
-          "Served with our homemade dip"
-        ],
-        "sizes": [
-          { "name": "Small", "price": "$11.00" },
-          { "name": "Medium", "price": "$15.00" },
-          { "name": "Large", "price": "$19.00" }
-        ]
-      },
-      {
-        "name": "Cheesy Garlic Fingers with Bacon",
-        "classification": "meat",
-        "category": "cheesy fingers",
-        "ingredients": [
-          "Strips of pizza crust",
-          "topped with homemade roasted garlic butter",
-          "grande mozzarella",
-          "parmesan and our unique blend of herbs",
-          "Served with our homemade dip"
-        ],
-        "sizes": [
-          { "name": "Small", "price": "$12.35" },
-          { "name": "Medium", "price": "$16.75" },
-          { "name": "Large", "price": "$21.00" }
-        ]
-      },
+
       {
         "name": "Garden Salad",
         "classification": "vegetarian",
