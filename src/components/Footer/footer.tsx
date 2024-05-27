@@ -22,11 +22,9 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-2">
-                  <div>Monday - Saturday: 04:00 PM - 10:00 PM</div>
+                  <div>Monday - Sunday: 04:00 PM - 10:00 PM</div>
                 </li>
-                <li>
-                  <div>Sunday: Closed</div>
-                </li>
+                
               </ul>
             </div>
             <div>
