@@ -902,41 +902,29 @@
       {
         "name": "Meatballs",
         "classification": "meat",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           { "name": "With Meat Sauce & Grande Mozzarella", "price": " - $7.99" }
         ]
       },
       {
-        "name": "Bone in Chicken Wings (1LB)",
-        "classification": "meat",
-        "category": "side orders",
-        "ingredients": [],
-        "sizes": [
-          {
-            "name": "Buffalo, Honey garlic, BBQ, Tandoori Masala, Salt and Pepper, Thai sweet-chilli, Teriyaki",
-            "price": "- $14.99"
-          }
-        ]
-      },
-      {
-        "name": "French Fries",
+        "name": "French Fries - (1LB)",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
-          { "name": "With Meat Sauce & Grande Mozzarella", "price": " - $6.99" }
+          { "name": "Crispy Fries served with 2 dips", "price": " - $6.99" }
         ]
       },
       {
         "name": "Potato Wedges - (1LB)",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
-            "name": "Oven roasted Potato Wedges + 2 Dips",
+            "name": "Golden seasonal Potato Wedges served with Chipotle Mayo",
             "price": " - $6.99"
           }
         ]
@@ -944,19 +932,19 @@
       {
         "name": "Onion Rings - (1LB)",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
             "name": "Golden rings served with Smoky Chipotle Sauce",
-            "price": " - $6.99"
+            "price": " - $9.99"
           }
         ]
       },
       {
         "name": "Stuffed Jalapeno Poppers - (8 PCS)",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
@@ -968,7 +956,7 @@
       {
         "name": "Stuffed Jalapeno Poppers - (16 PCS)",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
@@ -980,7 +968,7 @@
       {
         "name": "Boneless Dry Garlic Ribs - (1LB)",
         "classification": "meat",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
@@ -990,9 +978,21 @@
         ]
       },
       {
+        "name": "Bone in Chicken Wings (1LB)",
+        "classification": "meat",
+        "category": "appetizers & Sides",
+        "ingredients": [],
+        "sizes": [
+          {
+            "name": "Buffalo, Honey garlic, BBQ, Tandoori Masala, Salt and Pepper, Thai sweet-chilli, Teriyaki",
+            "price": "- $14.99"
+          }
+        ]
+      },
+      {
         "name": "Boneless Chicken Wings - (1LB)",
         "classification": "meat",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
@@ -1004,7 +1004,7 @@
       {
         "name": "Poutine Classic",
         "classification": "meat",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
@@ -1016,7 +1016,7 @@
       {
         "name": "Bacon Poutine",
         "classification": "meat",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [
           {
@@ -1029,42 +1029,42 @@
       {
         "name": "Garden Salad",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [{ "name": "", "price": "$8.00" }]
       },
       {
         "name": "Caesar Salad",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [{ "name": "", "price": "$8.00" }]
       },
       {
         "name": "Greek Salad",
         "classification": "vegetarian",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [{ "name": "", "price": "$10.00" }]
       },
       {
         "name": "Chicken Caesar Salad",
         "classification": "meat",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [{ "name": "", "price": "$11.00" }]
       },
       {
         "name": "Bottle of Pop",
         "classification": "",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [{ "name": "2L", "price": "$4.50" }]
       },
       {
         "name": "Can of Pop",
         "classification": "",
-        "category": "side orders",
+        "category": "appetizers & Sides",
         "ingredients": [],
         "sizes": [{ "name": "Can", "price": "$1.50" }]
       },
@@ -1109,6 +1109,18 @@
         "category": "dips",
         "ingredients": [],
         "sizes": [{ "name": "", "price": "$0.95" }]
+      },
+      {
+        "name": "CUPCAKES - (4 Pack)",
+        "classification": "vegetarian",
+        "category": "dessert",
+        "ingredients": [],
+        "sizes": [
+          {
+            "name": "Try our delicious Housemade cupcakes",
+            "price": " - $7.99"
+          }
+        ]
       }
     ]
   }
