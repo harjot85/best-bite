@@ -1,5 +1,5 @@
 import BestBiteApp from "./pages/bestbite-app";
-import "@fontsource/chakra-petch";
+import "@fontsource/titillium-web";
 
 function App() {
   return <BestBiteApp />;
