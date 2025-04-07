@@ -825,7 +825,7 @@
         "sizes": [
           { "name": "Small", "price": "$11.50" },
           { "name": "Medium", "price": "$15.50" },
-          { "name": "Large", "price": "$22.50" }
+          { "name": "Large", "price": "$20.00" }
         ]
       },
       {
@@ -842,7 +842,7 @@
         "sizes": [
           { "name": "Small", "price": "$13.00" },
           { "name": "Medium", "price": "$17.50" },
-          { "name": "Large", "price": "$21.50" }
+          { "name": "Large", "price": "$22.50" }
         ]
       },
       {
