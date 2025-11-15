@@ -823,8 +823,8 @@
           "Served with our homemade dip"
         ],
         "sizes": [
-          { "name": "Small", "price": "$11.50" },
-          { "name": "Medium", "price": "$15.50" },
+          { "name": "Small", "price": "$12.00" },
+          { "name": "Medium", "price": "$16.00" },
           { "name": "Large", "price": "$20.00" }
         ]
       },
@@ -840,8 +840,8 @@
           "Served with our homemade dip"
         ],
         "sizes": [
-          { "name": "Small", "price": "$13.00" },
-          { "name": "Medium", "price": "$17.50" },
+          { "name": "Small", "price": "$13.50" },
+          { "name": "Medium", "price": "$18.00" },
           { "name": "Large", "price": "$22.50" }
         ]
       },
@@ -1007,7 +1007,7 @@
           },
           {
             "name": "Large",
-            "price": " - $10.49"
+            "price": " - $10.99"
           }
         ]
       },
@@ -1025,43 +1025,7 @@
           },
           {
             "name": "Large",
-            "price": " - $10.49"
-          }
-        ]
-      },
-      {
-        "name": "Cheese Burger Poutine",
-        "classification": "meat",
-        "category": "appetizers & Sides",
-        "ingredients": [
-          "Crispy Fries, Seasoned Ground Beef, Sautéed Onions, Cheddar & House Gravy"
-        ],
-        "sizes": [
-          {
-            "name": "Regular",
-            "price": " - $7.99"
-          },
-          {
-            "name": "Large",
-            "price": " - $10.49"
-          }
-        ]
-      },
-      {
-        "name": "Meat Poutine",
-        "classification": "meat",
-        "category": "appetizers & Sides",
-        "ingredients": [
-          "Crispy Fries, Cheese Curd, Sliced Italian Sausage, Salami & Meat Sauce"
-        ],
-        "sizes": [
-          {
-            "name": "Regular",
-            "price": " - $7.99"
-          },
-          {
-            "name": "Large",
-            "price": " - $10.49"
+            "price": " - $10.99"
           }
         ]
       },
@@ -1079,7 +1043,7 @@
           },
           {
             "name": "Large",
-            "price": " - $10.49"
+            "price": " - $10.99"
           }
         ]
       },
@@ -1097,7 +1061,7 @@
           },
           {
             "name": "Large",
-            "price": " - $11.49"
+            "price": " - $11.99"
           }
         ]
       },
